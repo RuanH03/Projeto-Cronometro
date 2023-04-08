@@ -1,2 +1,2 @@
 # Projeto-Cronometro
-📒 - Projeto Cronometro js
+📒 - Projeto Cronômetro js
