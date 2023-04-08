@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>PROJETO CRONOMETRO</title>
+</head>
+<body>
+    
+<div class="movimentar">
+    <div class="cronometro">
+        <h3><i>CRONÔMETRO</i></h3><br>
+        <div class="tela">
+            <i><h4>hh -- mm -- ss -- ms</h4></i>
+            <i><h1 id="counter">00:00:00:00</h1></i>
+        </div>
+        <div class="botoes">
+            <button class="botao1" onclick="start()"><i>INICIAR</i></button>
+            <button class="botao2" onclick="pause()"><i>PAUSAR</i></button>    
+            <button class="botao3" onclick="zeroTime()"><i>REINICIAR</i></button>
+        </div>
+    </div>
+</div>
+
+    <script src="../script/tempo.js"></script>
+
+</body>
+</html> 
